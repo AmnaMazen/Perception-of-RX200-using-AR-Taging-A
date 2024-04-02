@@ -1,5 +1,7 @@
-# Perception-of-RX200-using-AR-Taging-A
+# Perception-of-RX200-using-AR-Tag
 This repository discusses in detail the steps to use the April Tag and Kinect camera to get the transformation between the Kinect camera and RX200 robot. 
+
+This work is done with the help of my student: Chenghao Lin
 
 ## Step 1: Install the AprilTag library and ROS April Tag packages using the following links:
 
@@ -43,4 +45,31 @@ standalone_tags:
   ]
 
   And add it to the following file "/apriltag_ros/apriltag_ros/config/tags.yaml"
+
+  To generate more April Tags, you can use the following link: https://github.com/AprilRobotics/apriltag-generation
+
+  ## Step 5: Detect the orientation of the April tag and make the x-axis match the x-axis of the arm 
+
+  roslaunch '/home/chenghao/interbotix_ws/src/apriltag_ros/apriltag_ros/launch/continuous_detection.launch'
+
+  The x-axis is in red 
+
+  ## Step 6: Get the transformation between the rx200 and Kinect camera
+
+
+roslaunch interbotix_xsarm_perception xsarm_perception.launch robot_model:=rx200 use_armtag_tuner_gui:=true
+
+We need to change the camera topic inside "/home/chenghao/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception/launch/xsarm_perception.launch" to match kinect camera not realsense camera
+
+
+  <arg name="camera_frame"                      default="kinect2_rgb_optical_frame"/>
+
+  <arg name="camera_color_topic"                default="kinect2/hd/image_color_rect"/>
+
+  <arg name="camera_info_topic"                 default="kinect2/hd/camera_info"/>
+
+
+We set the num Samples to 10 and press snap pose. This automatically adds the transformation to the transformation tree. 
+
+  
 
