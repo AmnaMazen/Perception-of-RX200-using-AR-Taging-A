@@ -33,8 +33,6 @@ https://github.com/AprilRobotics/apriltag_ros?tab=readme-ov-file
    <img src="https://github.com/AmnaMazen/Perception-of-RX200-using-AR-Taging-A/blob/main/AR%20TAg.jpeg" width="300" height="300">
 </div>
 
-<img src="https://github.com/AmnaMazen/Perception-of-RX200-using-AR-Taging-A/blob/main/AR%20TAg.jpeg" width="300" height="300">
-
 
 
 ## Step 4: Copy tag Id from interbotics_ws and place it inside the AR Tag package
@@ -64,6 +62,10 @@ standalone_tags:
 
   The x-axis is in red 
 
+<div align="center">
+   <img src="https://github.com/AmnaMazen/Perception-of-RX200-using-AR-Taging-A/blob/main/orientation_AR.png" width="300" height="300">
+</div>
+
   ## Step 6: Get the transformation between the rx200 and Kinect camera
 
 
@@ -81,5 +83,7 @@ We need to change the camera topic inside "/home/chenghao/interbotix_ws/src/inte
 
 We set the num Samples to 10 and press snap pose. This automatically adds the transformation to the transformation tree. 
 
+<div align="center">
+   <img src="https://github.com/AmnaMazen/Perception-of-RX200-using-AR-Taging-A/blob/main/ARM_transformation.png" width="300" height="300">
+</div>
   
-
