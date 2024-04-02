@@ -29,11 +29,13 @@ In our case, it is "tagStandard41h12" based on the outer square shape and the 5 
 
 https://github.com/AprilRobotics/apriltag_ros?tab=readme-ov-file
 
-![April Tag](https://github.com/AmnaMazen/Perception-of-RX200-using-AR-Taging-A/blob/main/AR%20TAg.jpeg)
+<div align="center">
+   <img src="https://github.com/AmnaMazen/Perception-of-RX200-using-AR-Taging-A/blob/main/AR%20TAg.jpeg" width="300" height="300">
+</div>
 
-<img src="https://github.com/AmnaMazen/Perception-of-RX200-using-AR-Taging-A/blob/main/AR%20TAg.jpeg" width="100" height="100">
+<img src="https://github.com/AmnaMazen/Perception-of-RX200-using-AR-Taging-A/blob/main/AR%20TAg.jpeg" width="300" height="300">
 
-<Add picture here>
+
 
 ## Step 4: Copy tag Id from interbotics_ws and place it inside the AR Tag package
 
