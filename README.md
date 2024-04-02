@@ -31,6 +31,7 @@ https://github.com/AprilRobotics/apriltag_ros?tab=readme-ov-file
 
 ![April Tag](https://github.com/AmnaMazen/Perception-of-RX200-using-AR-Taging-A/blob/main/AR%20TAg.jpeg)
 
+<img src="https://github.com/AmnaMazen/Perception-of-RX200-using-AR-Taging-A/blob/main/AR%20TAg.jpeg" width="100" height="100">
 
 <Add picture here>
 
@@ -41,9 +42,13 @@ Copy "interbotix_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/i
 standalone_tags:
   [
     {id:    5, size: 0.02},
+    
     {id:  413, size: 0.02},
+    
     {id:  820, size: 0.02},
+    
     {id:  875, size: 0.02},
+    
     {id: 1050, size: 0.02}
   ]
 
