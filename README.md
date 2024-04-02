@@ -1,4 +1,4 @@
-# Perception-of-RX200-using-AR-Tag
+# Transformation-of-RX200-w.r.t-Kinect-camera-using-AR-Tag
 This repository discusses in detail the steps to use the April Tag and Kinect camera to get the transformation between the Kinect camera and RX200 robot. 
 
 This work is done with the help of my student: Chenghao Lin
