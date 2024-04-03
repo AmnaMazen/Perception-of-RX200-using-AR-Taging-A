@@ -71,7 +71,7 @@ standalone_tags:
 
 roslaunch interbotix_xsarm_perception xsarm_perception.launch robot_model:=rx200 use_armtag_tuner_gui:=true
 
-We need to change the camera topic inside "/home/chenghao/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception/launch/xsarm_perception.launch" to match kinect camera not realsense camera
+We need to change the camera topic inside "~/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception/launch/xsarm_perception.launch" to match kinect camera not realsense camera
 
 
   <arg name="camera_frame"                      default="kinect2_rgb_optical_frame"/>
