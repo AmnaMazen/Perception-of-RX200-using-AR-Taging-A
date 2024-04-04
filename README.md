@@ -3,6 +3,8 @@ This repository discusses in detail the steps to use the April Tag and Kinect ca
 
 This work is done with the help of my student: Chenghao Lin
 
+To install April Tag on the RX200 arm, please watch this video: https://www.youtube.com/watch?v=QqvOLzEG2Ec
+
 ## Step 1: Install the AprilTag library and ROS April Tag packages using the following links:
 
 https://github.com/AprilRobotics/apriltag_ros
